@@ -76,3 +76,16 @@ for idx in range(len(students)):
 
 for student in cohort:
     print(student)
+
+
+# Exercise 7
+# Using the list of students and list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
+# ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+# Iterate over awesome_students printing out each string.
+
+
+#list comprehension [<expression> for <item> in <list>] 'I want <expression> for each <item> in <list>'
+awesome_students = [f'{student} is awesome!' for student in students]
+
+for item in enumerate(awesome_students):
+    print(item)
