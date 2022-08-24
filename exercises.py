@@ -42,4 +42,14 @@ home_town = {
 }
 
 print(f"I was born in {home_town['city']}, {home_town['state']} - popluation of {home_town['population']}") 
-#I kept getting a syntax error for the first home_town bracket, but I changed my single quotations to double and it got rid of the error???
+#I kept getting a syntax error for the first home_town bracket, but I changed my single quotations to double and it got rid of the error??? Not sure why or how that happened
+
+
+# Exercise 5
+# Iterate over the key: value pairs in home_town and print a string for each item, for example:
+# "city = Arcadia"
+# "state = California"
+# "population = 58000
+
+for key, val in home_town.items():
+    print(f'{key} = {val}')
