@@ -16,3 +16,12 @@ foods = 'Pizza', 'Pasta', 'Hamburgers', 'Salads', 'Ramen', 'Soup'
 #print(type(foods))
 for food in foods:
     print(f'{food} is a good food')
+
+
+# Exercise 3
+# Using a for loop, print just the last two food strings from foods.
+
+#range() returns the sequence of the given number between the given range
+#range(start,stop) takes two arguments where the series of num. will begin and end
+for f in range(-2, 0):
+    print(foods[f])
