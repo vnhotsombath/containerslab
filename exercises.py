@@ -88,4 +88,14 @@ for student in cohort:
 awesome_students = [f'{student} is awesome!' for student in students]
 
 for item in enumerate(awesome_students):
-    print(item)
+    print(item) 
+
+
+# Exercise 8
+# Using the tuple foods and list comprehension within a for loop, print each food string that contains the letter a.
+
+
+for food in (foods):
+    if 'a' in food:
+        print(food)
+
