@@ -94,8 +94,14 @@ for item in enumerate(awesome_students):
 # Exercise 8
 # Using the tuple foods and list comprehension within a for loop, print each food string that contains the letter a.
 
+#basic syntax of list comprehension
+# I want 'if 'a' in food' for 'food' in 'foods'
+# start with a non-comprehension approach by using a for loop
+# for food in (foods):
+#     if 'a' in food:
+#         print(food)
 
-for food in (foods):
-    if 'a' in food:
-        print(food)
+#reduce to a one-liner
+for food in [food for food in foods if 'a' in food]:
+    print(food)
 
